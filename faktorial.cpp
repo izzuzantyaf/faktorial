@@ -28,11 +28,14 @@ int faktorial(int bilangan) {
 
 int main()
 {
+
+	cout << "//////////////////////////////////////////////////////\n\nPROGRAM UNTUK MENGHITUNG NILAI FAKTORIAL DARI SUATU BILANGAN\nWritten by : Izzu Zantya Fawwas\n\nKetentuan program\n1. program hanya menerima inputan bilangan non-negatif, selain itu maka error\n\nBugs list\n1. inputan mulai angka >= 17 menyebabkan hasilnya tidak valid\n\n//////////////////////////////////////////////////////\n\n";
+
 	// deklarasi variabel bilangan
 	int bilangan;
 
 	// input bilangan dari user
-	cout << "Masukkan bilangan : ";
+	utama : cout << "Masukkan bilangan : ";
 	cin >> bilangan;
 
 	// jika bilangan dari user tidak negatif
@@ -46,8 +49,8 @@ int main()
 		cout << "Error..."<<endl<<endl;
 	}
 
-	// pengulangan fungsi utama/main
-	main();
+	// pengulangan program
+	goto utama;
 
 	return 0;
 }
